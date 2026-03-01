@@ -1,0 +1,30 @@
+{
+    "name": "papyrus",
+    "version": "1.0.0",
+    "description": "A book library app",
+    "main": "app.js",
+    "scripts": {
+        "start": "live-server",
+        "build": "rollup -c --watch"
+    },
+    "type": "module",
+    "keywords": [
+        "books",
+        "library",
+        "javascript",
+        "app"
+    ],
+    "author": "MichaelPrys",
+    "license": "ISC",
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "eslint": "^10.0.2",
+        "globals": "^17.4.0",
+        "prettier": "3.8.1",
+        "rollup": "^4.59.0"
+    },
+    "dependencies": {
+        "@rollup/plugin-node-resolve": "^16.0.3",
+        "rollup-plugin-import-css": "^4.2.0"
+    }
+}
